@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Module\ModelMaker;
+namespace NexOtaku\ModelMaker;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\Concerns\InteractsWithIO;
