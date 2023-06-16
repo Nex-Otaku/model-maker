@@ -589,8 +589,7 @@ class ModelMaker
 
     private function camelize(string $value): string
     {
-        return strtoupper(substr($value, 0, 1))
-            . strtolower(substr($value, 1));
+        return ucfirst(strtolower($value));
     }
 
     private function pluralize(string $value): string
