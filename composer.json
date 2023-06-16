@@ -1,0 +1,17 @@
+{
+    "name": "nex-otaku/model-maker",
+    "description": "Model making UI for Laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NexOtaku\\ModelMaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nex Otaku",
+            "email": "nex-otaku@yandex.ru"
+        }
+    ],
+    "require": {}
+}
