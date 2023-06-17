@@ -2,7 +2,7 @@
 
 namespace NexOtaku\ModelMaker\Commands;
 
-use App\Module\ModelMaker\ModelMaker;
+use NexOtaku\ModelMaker\ModelMaker;
 use Illuminate\Console\Command;
 
 class ModelMakerCommand extends Command
