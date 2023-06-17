@@ -662,7 +662,9 @@ class ModelMaker
 
     private function getModelPath(string $modelNameCamelCased): string
     {
-        return __DIR__ . '/../../Models/' . $modelNameCamelCased . '.php';
+        return $this->command->getLaravel()->basePath()
+            . '/app/Models/'
+            . $modelNameCamelCased . '.php';
     }
 
     private function getPropertiesPhpDocRows(): array
